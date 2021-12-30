@@ -130,7 +130,7 @@ class B : A
 }
 class C : A
 {
-    public new void Display()
+    public override void Display()
     {
         Console.WriteLine("Вызван метод класса C");
     }
