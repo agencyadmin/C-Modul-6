@@ -48,12 +48,21 @@ class Programm
         ((B)d).Display();
         ((A)d).Display();
     }
-
+    //7.5.5.
     class Obj
     {
         public string Name { get; set; }
         public string Description { get; set; }
-        public static int MaxValue = 2000;
+        public static int MaxValue;
+        public static string Parent;
+        public static int DaysInWeek;
+
+        static Obj()
+        {
+            MaxValue = 2000;
+            Parent = "System.Object";
+            DaysInWeek = 7;
+        }
     }
 
     //Задание 7.5.3
