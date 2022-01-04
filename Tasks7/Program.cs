@@ -63,8 +63,10 @@ class Programm
     {
         public static int num1;
         public static int num2;
-        public static Swap(int A; int B;)
+        public static void Swap(out int A; out int B;)
             {
-
+            int C = A;
+            num1 = B;
+            num2 = C;
             }
 }
