@@ -48,4 +48,23 @@ class Programm
         ((B)d).Display();
         ((A)d).Display();
     }
+
+    class Obj
+    {
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public static int MaxValue = 2000;
+    }
+
+    //Задание 7.5.3
+
+    class Helper
+
+    {
+        public static int num1;
+        public static int num2;
+        public static Swap(int A; int B;)
+            {
+
+            }
 }
