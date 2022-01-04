@@ -78,4 +78,16 @@ class Programm
             num1 = B;
             num2 = C;
             }
+
+    static class intExtensions
+    {
+        public static int GetNegative(this int variable)
+        {
+            return variable = variable < 0 ? variable : - variable;
+        }
+        public static int GetPositive(this int variable)
+        {
+            return variable > 0 ? variable : - variable;
+        }
+    }
 }
