@@ -90,4 +90,27 @@ class Programm
             return variable > 0 ? variable : - variable;
         }
     }
+
+    class Car<T>
+    { 
+    T Engine;
+    }
+
+    class ElectricEngine
+    {
+    
+    }
+    class GasEngine
+    {
+    
+    }
+
+    class Record <Id, Value>
+    {
+        Date den;
+        DateTime vremja;
+        Id nomer = default(Id);
+        Value znachenie = default(Value);
+
+    }
 }
