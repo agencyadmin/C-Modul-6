@@ -107,8 +107,8 @@ class Programm
 
     class Record <Id, Value>
     {
-        Date den;
-        DateTime vremja;
+        public DateTime = Date;
+        
         Id nomer = default(Id);
         Value znachenie = default(Value);
 
